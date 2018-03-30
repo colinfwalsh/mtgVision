@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFB9F870206B20CF00047986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB9F86F206B20CF00047986 /* AppDelegate.swift */; };
+		AFB9F872206B20CF00047986 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB9F871206B20CF00047986 /* ViewController.swift */; };
+		AFB9F875206B20CF00047986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB9F873206B20CF00047986 /* Main.storyboard */; };
+		AFB9F877206B20CF00047986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB9F876206B20CF00047986 /* Assets.xcassets */; };
+		AFB9F87A206B20CF00047986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB9F878206B20CF00047986 /* LaunchScreen.storyboard */; };
+		AFB9F885206B20CF00047986 /* mtgVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB9F884206B20CF00047986 /* mtgVisionTests.swift */; };
+		AFB9F890206B20CF00047986 /* mtgVisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB9F88F206B20CF00047986 /* mtgVisionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB9F881206B20CF00047986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB9F864206B20CE00047986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB9F86B206B20CE00047986;
+			remoteInfo = mtgVision;
+		};
+		AFB9F88C206B20CF00047986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB9F864206B20CE00047986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB9F86B206B20CE00047986;
+			remoteInfo = mtgVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFB9F86C206B20CF00047986 /* mtgVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mtgVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB9F86F206B20CF00047986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFB9F871206B20CF00047986 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFB9F874206B20CF00047986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFB9F876206B20CF00047986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFB9F879206B20CF00047986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFB9F87B206B20CF00047986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB9F880206B20CF00047986 /* mtgVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mtgVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB9F884206B20CF00047986 /* mtgVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mtgVisionTests.swift; sourceTree = "<group>"; };
+		AFB9F886206B20CF00047986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB9F88B206B20CF00047986 /* mtgVisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mtgVisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB9F88F206B20CF00047986 /* mtgVisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mtgVisionUITests.swift; sourceTree = "<group>"; };
+		AFB9F891206B20CF00047986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB9F869206B20CE00047986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB9F87D206B20CF00047986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB9F888206B20CF00047986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB9F863206B20CE00047986 = {
+			isa = PBXGroup;
+			children = (
+				AFB9F86E206B20CF00047986 /* mtgVision */,
+				AFB9F883206B20CF00047986 /* mtgVisionTests */,
+				AFB9F88E206B20CF00047986 /* mtgVisionUITests */,
+				AFB9F86D206B20CF00047986 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB9F86D206B20CF00047986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9F86C206B20CF00047986 /* mtgVision.app */,
+				AFB9F880206B20CF00047986 /* mtgVisionTests.xctest */,
+				AFB9F88B206B20CF00047986 /* mtgVisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB9F86E206B20CF00047986 /* mtgVision */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9F86F206B20CF00047986 /* AppDelegate.swift */,
+				AFB9F871206B20CF00047986 /* ViewController.swift */,
+				AFB9F873206B20CF00047986 /* Main.storyboard */,
+				AFB9F876206B20CF00047986 /* Assets.xcassets */,
+				AFB9F878206B20CF00047986 /* LaunchScreen.storyboard */,
+				AFB9F87B206B20CF00047986 /* Info.plist */,
+			);
+			path = mtgVision;
+			sourceTree = "<group>";
+		};
+		AFB9F883206B20CF00047986 /* mtgVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9F884206B20CF00047986 /* mtgVisionTests.swift */,
+				AFB9F886206B20CF00047986 /* Info.plist */,
+			);
+			path = mtgVisionTests;
+			sourceTree = "<group>";
+		};
+		AFB9F88E206B20CF00047986 /* mtgVisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9F88F206B20CF00047986 /* mtgVisionUITests.swift */,
+				AFB9F891206B20CF00047986 /* Info.plist */,
+			);
+			path = mtgVisionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB9F86B206B20CE00047986 /* mtgVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB9F894206B20CF00047986 /* Build configuration list for PBXNativeTarget "mtgVision" */;
+			buildPhases = (
+				AFB9F868206B20CE00047986 /* Sources */,
+				AFB9F869206B20CE00047986 /* Frameworks */,
+				AFB9F86A206B20CE00047986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mtgVision;
+			productName = mtgVision;
+			productReference = AFB9F86C206B20CF00047986 /* mtgVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB9F87F206B20CF00047986 /* mtgVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB9F897206B20CF00047986 /* Build configuration list for PBXNativeTarget "mtgVisionTests" */;
+			buildPhases = (
+				AFB9F87C206B20CF00047986 /* Sources */,
+				AFB9F87D206B20CF00047986 /* Frameworks */,
+				AFB9F87E206B20CF00047986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB9F882206B20CF00047986 /* PBXTargetDependency */,
+			);
+			name = mtgVisionTests;
+			productName = mtgVisionTests;
+			productReference = AFB9F880206B20CF00047986 /* mtgVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFB9F88A206B20CF00047986 /* mtgVisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB9F89A206B20CF00047986 /* Build configuration list for PBXNativeTarget "mtgVisionUITests" */;
+			buildPhases = (
+				AFB9F887206B20CF00047986 /* Sources */,
+				AFB9F888206B20CF00047986 /* Frameworks */,
+				AFB9F889206B20CF00047986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB9F88D206B20CF00047986 /* PBXTargetDependency */,
+			);
+			name = mtgVisionUITests;
+			productName = mtgVisionUITests;
+			productReference = AFB9F88B206B20CF00047986 /* mtgVisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB9F864206B20CE00047986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Colin Walsh";
+				TargetAttributes = {
+					AFB9F86B206B20CE00047986 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AFB9F87F206B20CF00047986 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFB9F86B206B20CE00047986;
+					};
+					AFB9F88A206B20CF00047986 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFB9F86B206B20CE00047986;
+					};
+				};
+			};
+			buildConfigurationList = AFB9F867206B20CE00047986 /* Build configuration list for PBXProject "mtgVision" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFB9F863206B20CE00047986;
+			productRefGroup = AFB9F86D206B20CF00047986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB9F86B206B20CE00047986 /* mtgVision */,
+				AFB9F87F206B20CF00047986 /* mtgVisionTests */,
+				AFB9F88A206B20CF00047986 /* mtgVisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB9F86A206B20CE00047986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB9F87A206B20CF00047986 /* LaunchScreen.storyboard in Resources */,
+				AFB9F877206B20CF00047986 /* Assets.xcassets in Resources */,
+				AFB9F875206B20CF00047986 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB9F87E206B20CF00047986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB9F889206B20CF00047986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB9F868206B20CE00047986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB9F872206B20CF00047986 /* ViewController.swift in Sources */,
+				AFB9F870206B20CF00047986 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB9F87C206B20CF00047986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB9F885206B20CF00047986 /* mtgVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB9F887206B20CF00047986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB9F890206B20CF00047986 /* mtgVisionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFB9F882206B20CF00047986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB9F86B206B20CE00047986 /* mtgVision */;
+			targetProxy = AFB9F881206B20CF00047986 /* PBXContainerItemProxy */;
+		};
+		AFB9F88D206B20CF00047986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB9F86B206B20CE00047986 /* mtgVision */;
+			targetProxy = AFB9F88C206B20CF00047986 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFB9F873206B20CF00047986 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB9F874206B20CF00047986 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFB9F878206B20CF00047986 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB9F879206B20CF00047986 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFB9F892206B20CF00047986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFB9F893206B20CF00047986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB9F895206B20CF00047986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q844VW9UW4;
+				INFOPLIST_FILE = mtgVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightJarStudios.mtgVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFB9F896206B20CF00047986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q844VW9UW4;
+				INFOPLIST_FILE = mtgVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightJarStudios.mtgVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFB9F898206B20CF00047986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q844VW9UW4;
+				INFOPLIST_FILE = mtgVisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightJarStudios.mtgVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mtgVision.app/mtgVision";
+			};
+			name = Debug;
+		};
+		AFB9F899206B20CF00047986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q844VW9UW4;
+				INFOPLIST_FILE = mtgVisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightJarStudios.mtgVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mtgVision.app/mtgVision";
+			};
+			name = Release;
+		};
+		AFB9F89B206B20CF00047986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q844VW9UW4;
+				INFOPLIST_FILE = mtgVisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightJarStudios.mtgVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mtgVision;
+			};
+			name = Debug;
+		};
+		AFB9F89C206B20CF00047986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q844VW9UW4;
+				INFOPLIST_FILE = mtgVisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightJarStudios.mtgVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mtgVision;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB9F867206B20CE00047986 /* Build configuration list for PBXProject "mtgVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB9F892206B20CF00047986 /* Debug */,
+				AFB9F893206B20CF00047986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB9F894206B20CF00047986 /* Build configuration list for PBXNativeTarget "mtgVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB9F895206B20CF00047986 /* Debug */,
+				AFB9F896206B20CF00047986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB9F897206B20CF00047986 /* Build configuration list for PBXNativeTarget "mtgVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB9F898206B20CF00047986 /* Debug */,
+				AFB9F899206B20CF00047986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB9F89A206B20CF00047986 /* Build configuration list for PBXNativeTarget "mtgVisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB9F89B206B20CF00047986 /* Debug */,
+				AFB9F89C206B20CF00047986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB9F864206B20CE00047986 /* Project object */;
+}
