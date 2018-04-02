@@ -69,26 +69,6 @@ class ViewController: UIViewController {
             }
         }
     }
-
-    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
-        guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {
-            return
-        }
-        
-        var requestOptions:[VNImageOption : Any] = [:]
-        
-        if let camData = CMGetAttachment(sampleBuffer, kCMSampleBufferAttachmentKey_CameraIntrinsicMatrix, nil) {
-            requestOptions = [.cameraIntrinsics:camData]
-        }
-        
-        let imageRequestHandler = VNImageRequestHandler(cvPixelBuffer: pixelBuffer, orientation: CGImagePropertyOrientation(rawValue: 6)!, options: requestOptions)
-        
-        do {
-            try imageRequestHandler.perform(self.requests)
-        } catch {
-            print(error)
-        }
-    }
     
     func highlightLetters(box: VNRectangleObservation) {
         let xCord = box.topLeft.x * imageView.frame.size.width
@@ -102,6 +82,12 @@ class ViewController: UIViewController {
         outline.borderColor = UIColor.blue.cgColor
         
         imageView.layer.addSublayer(outline)
+    }
+    
+    //Need to setup text model from another source
+    func getCharInBox(box: VNTextObservation) {
+        guard let boxes = box.characterBoxes else {return}
+        
     }
     
     func highlightWord(box: VNTextObservation) {
@@ -140,6 +126,26 @@ class ViewController: UIViewController {
         outline.borderColor = UIColor.red.cgColor
         
         imageView.layer.addSublayer(outline)
+    }
+    
+    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
+        guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {
+            return
+        }
+        
+        var requestOptions:[VNImageOption : Any] = [:]
+        
+        if let camData = CMGetAttachment(sampleBuffer, kCMSampleBufferAttachmentKey_CameraIntrinsicMatrix, nil) {
+            requestOptions = [.cameraIntrinsics:camData]
+        }
+        
+        let imageRequestHandler = VNImageRequestHandler(cvPixelBuffer: pixelBuffer, orientation: CGImagePropertyOrientation(rawValue: 6)!, options: requestOptions)
+        
+        do {
+            try imageRequestHandler.perform(self.requests)
+        } catch {
+            print(error)
+        }
     }
     
     func startLiveVideo() {
